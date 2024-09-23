@@ -1,0 +1,93 @@
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(../fonts/JetBrainsMono-Medium.ttf);
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: JetBrains Mono;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header{
+
+  &__name{
+    color: #fff;
+  }
+  
+  &__nav{
+    background-color: #4996CD;
+    display: flex;
+    align-items: center;
+  }
+
+  &__watch{
+    margin-left: 1300px;
+  }
+
+  &__nav2{
+    background-color: #236AD4;
+    width: 1910px;
+    height: 60px;
+    align-items: center;
+
+  }
+
+  &__link{
+    color: #fff;
+  }
+
+  &__buttoms{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+h1 {
+  text-align: center;
+}
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #218838;
+}
+
+.searchForm{
+  margin-left: 300px;
+}
